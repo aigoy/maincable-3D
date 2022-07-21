@@ -3,13 +3,13 @@ import numpy as np
 import pandas as pd
 #from scipy.interpolate import lagrange
 
-# 此处输入模型信息文件的路径
-nodepath='C:\\Users\\chaizhimin\\Documents\\主缆找形\\maincable-python\\test3D\\NODE.txt' 
-elempath='C:\\Users\\chaizhimin\\Documents\\主缆找形\\maincable-python\\test3D\\ELEM.txt'
-hangerpath='C:\\Users\\chaizhimin\\Documents\\主缆找形\\maincable-python\\test3D\\HANGER.txt'
-infopath='C:\\Users\\chaizhimin\\Documents\\主缆找形\\maincable-python\\test3D\\info.txt'
-fixednodepath='C:\\Users\\chaizhimin\\Documents\\主缆找形\\maincable-python\\test3D\\FIXEDNODE.txt'
-outputpath='C:\\Users\\chaizhimin\\Documents\\主缆找形\\maincable-python\\test3D\\result.xlsx'
+# 此处输入输入输出文件的路径
+nodepath='' 
+elempath=''
+hangerpath=''
+infopath=''
+fixednodepath=''
+outputpath=''
 
 #读取节点坐标信息,fname为坐标信息txt文件，内部格式为3/4列矩阵，依次存放节点编号、x坐标、y坐标（、z坐标），n表示2维/3维
 def loadnodes(fname):
