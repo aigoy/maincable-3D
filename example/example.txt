@@ -1,1 +1,6 @@
 此处为输入文件的示例
+'NODE.txt'为节点初始坐标  
+'ELEM.txt'为单元信息
+'HANGER.txt'为吊杆信息
+'info.txt'为其他信息
+'fixednode.txt'为主缆锚固点
