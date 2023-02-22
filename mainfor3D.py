@@ -442,5 +442,6 @@ def main(nodepath,elempath,hangerpath,infopath,fixednodepath,outputpath):
             break
         #print("外循环第{}次".format(nn2))
     NODE.to_excel(outputpath)
+    print(H1)
 
-main()
+main(nodepath,elempath,hangerpath,infopath,fixednodepath,outputpath)
