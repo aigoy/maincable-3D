@@ -1,7 +1,6 @@
 from math import sqrt
 import numpy as np
 import pandas as pd
-#from scipy.interpolate import lagrange
 
 # 此处输入输入输出文件的路径
 nodepath='' 
